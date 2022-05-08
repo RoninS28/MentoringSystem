@@ -1,0 +1,14 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "WEB-INF/lib/bson-4.1.1.jar",
+        "WEB-INF/lib/mongodb-driver-core-4.1.1.jar",
+        "WEB-INF/lib/mongodb-driver-sync-4.1.1.jar",
+        "WEB-INF/lib/slf4j-api-1.7.6.jar",
+        "WEB-INF/classes/servlet-api.jar",
+        "WEB-INF/classes/bson-4.1.1.jar",
+        "WEB-INF/classes/mongodb-driver-core-4.1.1.jar",
+        "WEB-INF/classes/mongodb-driver-sync-4.1.1.jar",
+        "WEB-INF/classes/slf4j-api-1.7.6.jar"
+    ]
+}

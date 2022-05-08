@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app>
+    <servlet>   
+        <servlet-name>AuthServ</servlet-name>
+        <servlet-class>AuthServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AuthServ</servlet-name>
+        <url-pattern>/Auth</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>MentorHomePage</servlet-name>
+        <servlet-class>MentorHomePage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MentorHomePage</servlet-name>
+        <url-pattern>/MentorHomePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>StudentHomePage</servlet-name>
+        <servlet-class>StudentHomePage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentHomePage</servlet-name>
+        <url-pattern>/StudentHomePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>NoticePageServ</servlet-name>
+        <servlet-class>NoticePageServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NoticePageServ</servlet-name>
+        <url-pattern>/NoticePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>ViewStudentsPageServ</servlet-name>
+        <servlet-class>ViewStudentsPageServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewStudentsPageServ</servlet-name>
+        <url-pattern>/ViewStudentsPage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>StudentProfileViewServ</servlet-name>
+        <servlet-class>StudentProfileViewServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentProfileViewServ</servlet-name>
+        <url-pattern>/ViewStudentProfilePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>addNoticePageServ</servlet-name>
+        <servlet-class>addNoticePageServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addNoticePageServ</servlet-name>
+        <url-pattern>/addNoticePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>SubmitNoticePageServ</servlet-name>
+        <servlet-class>SubmitNoticePageServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitNoticePageServ</servlet-name>
+        <url-pattern>/SubmitNoticePage</url-pattern>
+    </servlet-mapping>
+    <servlet>   
+        <servlet-name>LogoutServ</servlet-name>
+        <servlet-class>LogoutServ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServ</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="classes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WEB-INF/classes/bson-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/classes/mongodb-driver-sync-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/classes/mongodb-driver-core-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/classes/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WEB-INF/classes/slf4j-api-1.7.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
